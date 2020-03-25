@@ -1,0 +1,87 @@
+* {
+    font-family: Josefin Sans;
+    font-size: 16px;
+    margin: 0;
+}
+
+.logo-mobile {
+    width: 90px;
+    padding: 1.5em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.title {
+    font-size: 2em;
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    letter-spacing: 0.3em;
+}
+
+.subtitle {
+    font-size: 2em;
+    color: hsl(0, 6%, 24%);
+    letter-spacing: 0.3em;
+    font-weight: 600;
+}
+
+.text-container {
+    padding-top: 1em;
+    text-align: center;
+    line-height: 2em;
+}
+
+.text {
+    color: hsl(0, 36%, 70%);
+    font-size: 0.8em;
+}
+
+.input-round {
+    border-radius: 0.7em;
+    border-color: transparent;
+    padding: 0.5em;
+    
+}
+
+.input-container {
+    position: relative;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.email-input {
+    width: 80%;
+    border-radius: 1.2em;
+    padding: 0.1em;
+    border: 2px solid hsl(0, 36%, 70%);
+}
+
+::placeholder {
+    color: hsl(0, 36%, 70%);
+    font-size: 0.9em;
+  }
+
+.btn-container {
+    position: absolute;
+    right: 7%;
+    bottom: 0px;
+    border-color: transparent;
+}
+
+.btn-submit {
+    border-radius: 1.2em;
+    border: 0;
+    width: 60px;
+    padding: 0.8em;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+.btn-img {
+    width: 10px;
+}
