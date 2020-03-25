@@ -17,7 +17,7 @@
     </header>
     <main>
         <section>
-            <img  style="width: 100%;" src="../images/hero-mobile.jpg" alt="hero mobile">
+            <img style="width: 100%;" src="../images/hero-mobile.jpg" alt="hero mobile">
         </section>
         <section class="info">
             <div>
@@ -38,16 +38,27 @@
                 </div>
             </div>
         </section>
-        <section class="input-container">
-            <div class="email-input">
-                <input type="text" class="input-round" placeholder="Email Address">
+        <form novalidate>
+            <section class="input-container">
+
+                <div class="email-input">
+                    <input type="email" class="input-round" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="btn-container">
+                    <button class="btn-submit" id="btn">
+                        <img class="btn-img" src="../images/icon-arrow.svg" alt="arrow">
+                    </button>
+                </div>
+            </section>
+            <div id="error-img" class="error" hidden="hidden">
+                <div class="error-icon">
+                    <img src="../images/icon-error.svg" alt="error">
+                </div>
+                <div class="error-text">
+                    <span id="error-text">Error has acurred</span>
+                </div>
             </div>
-            <div class="btn-container">
-                <button class="btn-submit">
-                    <img class="btn-img" src="../images/icon-arrow.svg" alt="arrow">
-                </button>
-            </div>
-        </section>
+        </form>
 
     </main>
     <script src="coming-soon.js"></script>

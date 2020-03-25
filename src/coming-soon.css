@@ -85,3 +85,17 @@
 .btn-img {
     width: 10px;
 }
+
+.error {
+    margin: -0.5em 125px 0 7em;
+    color: red;
+}
+
+.error .error-icon {
+    float: left;
+}
+
+.error .error-text {
+    float: right;
+    line-height: 24px;
+}
